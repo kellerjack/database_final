@@ -102,10 +102,6 @@ def view_purchases():
             customer_id, customer_name, product_id, product_name, quantity, price, total = row
             print(f"Customer {customer_id} ({customer_name}) bought {quantity} x {product_name} (Product ID: {product_id}) at ${price:.2f} each. Total: ${total:.2f}")
 
-import sqlite3
-
-import sqlite3
-
 def edit_product():
     print("\n=== Edit Product ===")
     try:
@@ -256,3 +252,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
